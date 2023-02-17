@@ -64,8 +64,7 @@ const ProjectsData = [
     img: PizzaTime,
     name: "Pizza Time",
     stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
-    src: "https://pizza-time-with-react.vercel.app/",
-    source: "https://github.com/catherineisonline/pizza-time-with-react",
+    source: "https://github.com/abood167/cub3d",
     description:
       "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
