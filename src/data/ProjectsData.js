@@ -12,9 +12,11 @@ const ProjectsPreviewData = [
     id: "pizza-time",
     img: PizzaTime,
     name: "Pizza Time",
-    source: "https://github.com/abood167/cub3d",
+    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
+    src: "https://pizza-time-with-react.vercel.app/",
+    source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
-      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
+      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or enemy and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
   },
   {
     id: "rest-countries",
@@ -63,10 +65,9 @@ const ProjectsData = [
     id: "pizza-time",
     img: PizzaTime,
     name: "Pizza Time",
-    source: "https://github.com/abood167/cub3d",
+    src: "https://pizza-time-with-react.vercel.app/",
     description:
-      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
-  },
+      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or enemy and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",  },
   {
     id: "rest-countries",
     img: RestCountries,
