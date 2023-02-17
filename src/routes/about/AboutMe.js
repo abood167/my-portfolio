@@ -6,8 +6,9 @@ const AboutMe = () => {
         I am a software engineer with a background in business and
         entrepreneurship. I have experience in web development, project
         management, marketing, and business development. I am passionate about
-        building products that solve real problems and make a positive impact on
-        the world.
+        learning new technologies and building scalable and efficient
+        applications. I am a fast learner and a team player. I am always looking
+        for new opportunities to learn and grow.
       </p>
     </section>
   );
