@@ -16,7 +16,7 @@ const ProjectsPreviewData = [
     src: "https://pizza-time-with-react.vercel.app/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
-      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or enemy and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
+      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
   },
   {
     id: "rest-countries",
@@ -26,8 +26,12 @@ const ProjectsPreviewData = [
     src: "https://catherineisonline.github.io/rest-countries/",
     source: "https://github.com/catherineisonline/rest-countries",
     description:
-      "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
+    "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
   },
+
+
+
+  
   {
     id: "forkify",
     img: Forkify,
@@ -62,12 +66,13 @@ const ProjectsPreviewData = [
 
 const ProjectsData = [
   {
-    id: "pizza-time",
+    id: "cub3d",
     img: PizzaTime,
-    name: "Pizza Time",
-    src: "https://pizza-time-with-react.vercel.app/",
+    name: "cub3d",
+    stack: ["c  ,mlx"],
+    source: "https://github.com/abood167/cub3d",
     description:
-      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or enemy and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",  },
+      "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",  },
   {
     id: "rest-countries",
     img: RestCountries,
