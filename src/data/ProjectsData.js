@@ -13,8 +13,7 @@ const ProjectsPreviewData = [
     img: PizzaTime,
     name: "Pizza Time",
     stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
-    src: "https://pizza-time-with-react.vercel.app/",
-    source: "https://github.com/catherineisonline/pizza-time-with-react",
+    source: "https://github.com/abood167/cub3d",
     description:
       "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
   },
