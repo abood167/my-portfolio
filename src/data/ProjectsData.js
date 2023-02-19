@@ -1,147 +1,83 @@
-import PizzaTime from "../assets/images/portfolio/PizzaTime.jpeg";
-import TravelWithCatherine from "../assets/images/portfolio/TravelWithCatherine.png";
-import GuessMyNumber from "../assets/images/portfolio/GuessMyNumber.jpeg";
-import Forkify from "../assets/images/portfolio/Forkify.jpeg";
-import Edgy from "../assets/images/portfolio/Edgy.jpeg";
-import RestCountries from "../assets/images/portfolio/RestCountries.jpeg";
-import Bankist from "../assets/images/portfolio/Bankist.jpeg";
-import FrontendMentorSolutions from "../assets/images/portfolio/FrontendMentorSolutions.jpeg";
+import cub3d from "../assets/images/portfolio/cub3d.jpeg";
+import Push_swap from "../assets/images/portfolio/Push_swap.jpeg";
+import philospher from "../assets/images/portfolio/philospher.jpeg";
+import MiniShell from "../assets/images/portfolio/MiniShell.jpeg";
 
 const ProjectsPreviewData = [
   {
-    id: "pizza-time",
-    img: PizzaTime,
-    name: "Pizza Time",
-    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
+    id: "cub3d",
+    img: cub3d,
+    name: "cub3d",
+    stack: [],
+
     source: "https://github.com/abood167/cub3d",
     description:
       "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
   },
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "Rest Countires",
-    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
-    src: "https://catherineisonline.github.io/rest-countries/",
-    source: "https://github.com/catherineisonline/rest-countries",
+    id: "philospher",
+    img: philospher,
+    name: "philospher",
+    stack: [],
+    source: "https://github.com/abood167/philospher/tree/main/philo_upllod",
     description:
-    "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",
+    "This project is about solving the philosophers problem who sits all together on a round table and have two forks, one on the right and one on the left, as the number of the forks is the same as the number of philosophers. In addition to that, each philosopher needs to eat with two forks so while some philosophers are eating, the others will be waiting them to finish so they can use the forks. As a result, I used threads to be able to run multiple philosophers as processes so they can all go through different tasks to do at the same time, and mutexes as forks to be able to lock them and protect the values from data races ,./philo [Number Of Philosophers] [Time To Die] [Time To Eat] [Time To Sleep] [Number Of Rounds]",
   },
 
-
-
-  
   {
-    id: "forkify",
-    img: Forkify,
-    name: "Forkify Recipes",
-    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
-    src: "https://forkify-recipe-api.vercel.app/",
-    source: "https://github.com/catherineisonline/forkify",
+    id: "Push_swap",
+    img: Push_swap,
+    name: "Push_swap",
+    stack: [""],
+    source: "https://github.com/abood167/push_swap/tree/main/fff",
     description:
-      "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
+      "This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting",
   },
   {
-    id: "bankist",
-    img: Bankist,
-    name: "Bankist",
+    id: "MiniShell",
+    img: MiniShell,
+    name: "MiniShell",
     stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
     source: "https://github.com/catherineisonline/bankist",
     description:
-      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
-  },
-  {
-    id: "guess-my-number",
-    img: GuessMyNumber,
-    name: "Guess My Number",
-    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
-    src: "https://guess-my-number-now.vercel.app/",
-    source: "https://github.com/catherineisonline/guess-my-number",
-    description:
-      "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
+      "Recreated a shell similar to Bash Shell that includes displaying a prompt then parse and search for the given command whether it is a relative or absolute path. In addition to, implementing redirections including 'HereDoc' for the shell.",
   },
 ];
 
 const ProjectsData = [
   {
     id: "cub3d",
-    img: PizzaTime,
+    img: cub3d,
     name: "cub3d",
     stack: ["c  ,mlx"],
     source: "https://github.com/abood167/cub3d",
     description:
       "This game is done using the raycasting way where I sent vectors from the starting position of the player that checks everytime it hits a grid till it reaches a wall or door or ene and then calculate the exact distance by taking the grid size as a 1 unit. Depending on the distance from the player to the wall, the vertical size of the wall is calculated and then the wall is drawn on the screen.",  },
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "Rest Countires",
-    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
-    src: "https://catherineisonline.github.io/rest-countries/",
-    source: "https://github.com/catherineisonline/rest-countries",
+    id: "philospher",
+    img: philospher,
+    name: "philospher",
+    stack: [],
+    source: "https://github.com/abood167/philospher/tree/main/philo_upllod",
     description:
-      "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
+    "This project is about solving the philosophers problem who sits all together on a round table and have two forks, one on the right and one on the left, as the number of the forks is the same as the number of philosophers. In addition to that, each philosopher needs to eat with two forks so while some philosophers are eating, the others will be waiting them to finish so they can use the forks. As a result, I used threads to be able to run multiple philosophers as processes so they can all go through different tasks to do at the same time, and mutexes as forks to be able to lock them and protect the values from data races ,./philo [Number Of Philosophers] [Time To Die] [Time To Eat] [Time To Sleep] [Number Of Rounds]",
   },
   {
-    id: "forkify",
-    img: Forkify,
-    name: "Forkify Recipes",
-    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
-    src: "https://forkify-recipe-api.vercel.app/",
-    source: "https://github.com/catherineisonline/forkify",
+    id: "Push_swap",
+    img: Push_swap,
+    name: "Push_swap",
+    stack: [""],
+    source: "https://github.com/abood167/push_swap/tree/main/fff",
     description:
-      "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
-  },
+      "This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting",  },
   {
-    id: "bankist",
-    img: Bankist,
-    name: "Bankist",
-    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
+    id: "MiniShell",
+    img: MiniShell,
+    name: "MiniShell",
+    stack: [""],
     source: "https://github.com/catherineisonline/bankist",
     description:
-      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
-  },
-  {
-    id: "guess-my-number",
-    img: GuessMyNumber,
-    name: "Guess My Number",
-    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
-    src: "https://guess-my-number-now.vercel.app/",
-    source: "https://github.com/catherineisonline/guess-my-number",
-    description:
-      "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
-  },
-  {
-    id: "frontend-mentor-solutions",
-    img: FrontendMentorSolutions,
-    name: "Frontend Mentor Solutions",
-    stack: ["< Vue.js />", "< Sass />"],
-    src: "https://catherineisonline.github.io/frontend-mentor-challenge-solutions/",
-    source:
-      "https://github.com/catherineisonline/frontend-mentor-challenge-solutions",
-    description:
-      "Frontend Mentor provides designs so that you can practice front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and style requirements. Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos, and direct links to challenges on Frontend Mentor.",
-  },
-  {
-    id: "edgy",
-    img: Edgy,
-    name: "Edgy",
-    stack: ["< Tailwind />", "< React.js />"],
-    src: "https://catherineisonline.github.io/edgy/",
-    source: "https://github.com/catherineisonline/edgy",
-    description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
-  },
-  {
-    id: "travel-with-catherine",
-    img: TravelWithCatherine,
-    name: "Travel with Catherine",
-    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
-    src: "https://catherineisonline.github.io/travel-with-catherine/",
-    source: "https://github.com/catherineisonline/travel-with-catherine",
-    description:
-      "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
+      "Recreated a shell similar to Bash Shell that includes displaying a prompt then parse and search for the given command whether it is a relative or absolute path. In addition to, implementing redirections including 'HereDoc' for the shell.",
   },
 ];
 
