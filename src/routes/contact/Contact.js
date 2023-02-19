@@ -10,7 +10,7 @@ const Contact = () => {
       <p className="white-text p-tag">
         If you are interested to hire me I am always open to new opportunities
         and interesting projects! Feel free to contact me if you have any other
-        requests or questions regarding web development.
+        requests or questions regarding software development.
       </p>
       <SendEmail />
       <Footer />

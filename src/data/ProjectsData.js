@@ -37,8 +37,8 @@ const ProjectsPreviewData = [
     id: "MiniShell",
     img: MiniShell,
     name: "MiniShell",
-    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    source: "https://github.com/catherineisonline/bankist",
+    stack: [""],
+    source: "https://github.com/abood167/minishell",
     description:
       "Recreated a shell similar to Bash Shell that includes displaying a prompt then parse and search for the given command whether it is a relative or absolute path. In addition to, implementing redirections including 'HereDoc' for the shell.",
   },
@@ -75,7 +75,7 @@ const ProjectsData = [
     img: MiniShell,
     name: "MiniShell",
     stack: [""],
-    source: "https://github.com/catherineisonline/bankist",
+    source: "https://github.com/abood167/minishell",
     description:
       "Recreated a shell similar to Bash Shell that includes displaying a prompt then parse and search for the given command whether it is a relative or absolute path. In addition to, implementing redirections including 'HereDoc' for the shell.",
   },
