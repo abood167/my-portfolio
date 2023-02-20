@@ -2,6 +2,7 @@ import cub3d from "../assets/images/portfolio/cub3d.jpeg";
 import Push_swap from "../assets/images/portfolio/Push_swap.jpeg";
 import philospher from "../assets/images/portfolio/philospher.jpeg";
 import MiniShell from "../assets/images/portfolio/MiniShell.jpeg";
+import SolangImg from "../assets/images/portfolio/solong.png";
 
 const ProjectsPreviewData = [
   {
@@ -41,6 +42,15 @@ const ProjectsPreviewData = [
     source: "https://github.com/abood167/minishell",
     description:
       "Recreated a shell similar to Bash Shell that includes displaying a prompt then parse and search for the given command whether it is a relative or absolute path. In addition to, implementing redirections including 'HereDoc' for the shell.",
+  },
+  {
+    id: "SoLong",
+    img: SolangImg,
+    name: "Solong",
+    stack: [""],
+    source: "https://github.com/abood167/so_long_OP",
+    description:
+      "Built a 2D game using the MLX library that includes creating a map in a text file using '1' as a wall, '0' as an empty space, and 'P' as a player, then parse and draw the map on a MLX window and start the game using the MLX functions.",
   },
 ];
 

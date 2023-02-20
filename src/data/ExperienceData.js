@@ -1,10 +1,13 @@
+import certicate2 from "../assets/documents/certicate1.pdf" ;
+import certicate1 from "../assets/documents/certicate2.pdf" ;
+
 const ExperienceData = [
   {
     id: 1,
     jobtitle: "Head of Department",
     companyname: "Social Boost",
     worktype: "Full-time",
-    duration: "Jan 2021 - Oct 2021",
+    duration: "Jan 2021 - Oct 2021",  
     location: "Tbilisi, Georgia",
     responsibility: [
       `Guided a team of 70 Instagram growth specialists and over 5 team leaders.`,
@@ -148,40 +151,17 @@ const EducationData = [
 
 const CertificationData = [
   {
-    name: "HTML and CSS in depth",
-    source: "Meta",
-    date: "Issued Sept 2022 · No Expiration Date",
-    creditUrl:
-      "https://www.coursera.org/account/accomplishments/certificate/9X4535T5LVXG",
+    name: "Hight School Diploma",
+    source: "Al Hoson Public School",
+    date: "2019 - 20220",
+    creditUrl: certicate1,
   },
   {
-    name: "Interactivity with JavaScript",
-    source: "University of Michigan",
-    date: "Issued Sept 2022 · No Expiration Date",
-    creditUrl:
-      "https://www.coursera.org/account/accomplishments/certificate/SVHSCXX3C5SY",
-  },
-  {
-    name: "React Basics",
-    source: "Meta",
-    date: "Issued Sept 2022 · No Expiration Date",
-    creditUrl:
-      "https://www.coursera.org/account/accomplishments/certificate/47UVLTZJDQYT",
-  },
-  {
-    name: "Front End Development Libraries",
-    source: "freeCodeCamp",
-    date: "Issued Sept 2022 · No Expiration Date",
-    creditUrl:
-      "https://freecodecamp.org/certification/catherineisonline/front-end-development-libraries",
-  },
-  {
-    name: "Introduction to Front-End Development",
-    source: "Meta",
-    date: "Issued Aug 2022 · No Expiration Date",
-    creditUrl:
-      "https://www.coursera.org/account/accomplishments/certificate/9VXW6YH858J5",
-  },
+    name: "EMSAT",
+    source: "Zayed University",
+    date: "2019 - 2020",
+    creditUrl: certicate2,
+  }
 ];
 
 export { ExperienceData, EducationData, CertificationData };
