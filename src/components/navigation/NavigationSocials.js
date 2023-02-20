@@ -6,7 +6,7 @@ const NavigationSocials = () => {
       >
       </a>
       <a
-        href="https://github.com/catherineisonline"
+        href="https://github.com/abood167"
         target="_blank"
         rel="noreferrer"
       >
