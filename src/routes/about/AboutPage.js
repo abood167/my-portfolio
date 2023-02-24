@@ -3,6 +3,7 @@ import Certifications from "./Certifications.js";
 import Languages from "./Languages.js";
 import Stack from "./Stack.js";
 import Education from "./Education.js";
+import SkillsData from "./SkillsData.js";
 import WorkExperience from "./WorkExperience.js";
 import DownloadResume from "./DownloadResume.js";
 import AboutMe from "./AboutMe.js";
@@ -16,8 +17,9 @@ const About = () => {
       <Stack />
       <DownloadResume />
       <WorkExperience />
-      <Education />
+      <SkillsData />
       <Languages />
+      <Education />
       <DownloadResume />
       <Certifications />
       <ScrollButton />
